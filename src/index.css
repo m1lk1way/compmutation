@@ -1,0 +1,6 @@
+/* common styles here, like css reset, fonts, etc. */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

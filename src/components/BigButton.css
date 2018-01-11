@@ -1,0 +1,18 @@
+.button{
+    composes: button from "./Button.css";
+    /*Mutation*/
+    width: 100%;
+    background: blueviolet;
+    border: solid yellowgreen 2px;
+    box-sizing: border-box;
+}
+.button:hover{
+    /*Mutation without compose*/
+    border: solid aqua 2px;
+}
+.loading{
+    composes: loading from "./Button.css";
+    /*Mutation*/
+    background: red;
+    border-color: black;
+}
